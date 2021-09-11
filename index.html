@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en" id="home">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>My First Portfolio (using Bootstrap 3)</title>
+     <link href="css/bootstrap.min.css" rel="stylesheet">
+     <link rel="stylesheet" href="style.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+       <span class="sr-only">Toggle navigation</span>
+       <span class="icon-bar"></span>
+       <span class="icon-bar"></span>
+       <span class="icon-bar"></span>
+      </button>
+
+          <a href="#home" class="navbar-brand page-scroll">DimasRS.</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#about" class="page-scroll">About</a> </li>
+          <li><a href="#project" class="page-scroll">Projects</a> </li>
+          <li><a href="#contact" class="page-scroll">Contact</a> </li>
+        </ul>
+      </div>
+
+      </div>
+    </nav>
+    <!-- AKHIR NAVBAR -->
+
+    <!-- JUMBOTRON -->
+      <div class="jumbotron text-center">
+        <img src="https://i.ibb.co/xSJWWrg/dimas.png" class="img-circle bordered" alt="DimasRS Photo">
+         <h1 class="title">Dimas Ramadhan Syahputra</h1>
+         <p>Student &VerticalLine; Junior Programmer &VerticalLine; Content Creator</p>
+         <h4><a href="https://getbootstrap.com/docs/3.3/">using { Bootstrap 3 }</a></h4>
+      </div>
+    <!-- AKHIR JUMBOTRON -->
+
+    <!-- ABOUT with Grid System -->
+      <section class="about" id="about">
+        <div class="container">
+
+          <div class="row">
+            <div class="col-sm-12">
+              <h2 class="text-center">About</h2>
+              <hr>
+            </div>
+          </div>
+            <br />
+          <div class="row">
+            <div class="col-sm-5 col-sm-offset-1">
+              <p class="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <b>Ut enim ad minim veniam?</b> quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="col-sm-5">
+              <p class="p2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut mantap:v ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat <em>nulla pariatur</em>. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+
+          </div>
+        </div>
+      </section>
+    <!-- AKHIR ABOUT -->
+
+    <!-- PROJECTS -->
+      <section class="projects" id="project">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 text-center">
+              <h2>Projects</h2>
+              <hr>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-4">
+              <a href="#gambar1" class="thumbnail"> <img src="https://i.ibb.co/b363pM9/pexels-vlada-karpovich-4050318.jpg" alt="Living Room" title="Living Room"> </a>
+            </div>
+            <div class="overlay-lightbox text-center" id="gambar1"> <a href="#projects" class="btn btn-danger close-btn"><i class="glyphicon glyphicon-remove"></i> CLOSE</a>
+              <img src="https://i.ibb.co/b363pM9/pexels-vlada-karpovich-4050318.jpg" alt="Living Room" border="0">
+              <h2 class="bg-primary">Living Room</h2>
+              <nav aria-label="...">
+                <ul class="pagination">
+                  <li class="disabled"><a href="#projects" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a></li>
+                  <li class="active"><a href="#gambar1">1 <span class="sr-only">(current)</span></a></li>
+                  <li class="enable"><a href="#gambar2">2 <span class="sr-only">(current)</span></a></li>
+                  <li class="enable"><a href="#gambar3">3 <span class="sr-only">(current)</span></a></li>
+                  <li class="enable"><a href="#gambar4">4 <span class="sr-only">(current)</span></a></li>
+                  <li class="enable"><a href="#gambar5">5 <span class="sr-only">(current)</span></a></li>
+                  <li class="enable"><a href="#gambar6">6 <span class="sr-only">(current)</span></a></li>
+                  <li class="enable"><a href="#gambar2" aria-label="Previous"><span aria-hidden="true">&raquo;</span></a></li>
+                </ul>
+              </nav>
+
+            </div>
+
+            <div class="col-sm-4">
+              <a href="#gambar2" class="thumbnail"> <img src="https://i.ibb.co/HY3zKDS/pexels-fox-1038916.jpg" alt="Computer1" title="Computer1" title="Computer1"> </a>
+            </div>
+            <div class="overlay-lightbox text-center" id="gambar2"> <a href="#projects" class="btn btn-danger close-btn"><i class="glyphicon glyphicon-remove"></i> CLOSE</a>
+              <img src="https://i.ibb.co/HY3zKDS/pexels-fox-1038916.jpg" alt="Computer1" border="0">
+              <h2 class="bg-primary">Computer1</h2>
+              <nav aria-label="...">
+                <ul class="pagination">
+                  <li class="enable"><a href="#gambar1" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a></li>
+                  <li class="enable"><a href="#gambar1">1 <span class="sr-only">(current)</span></a></li>
+                  <li class="active"><a href="#gambar2">2 <span class="sr-only">(current)</span></a></li>
+                  <li class="enable"><a href="#gambar3">3 <span class="sr-only">(current)</span></a></li>
+                  <li class="enable"><a href="#gambar4">4 <span class="sr-only">(current)</span></a></li>
+                  <li class="enable"><a href="#gambar5">5 <span class="sr-only">(current)</span></a></li>
+                  <li class="enable"><a href="#gambar6">6 <span class="sr-only">(current)</span></a></li>
+                  <li class="enable"><a href="#gambar3" aria-label="Previous"><span aria-hidden="true">&raquo;</span></a></li>
+                </ul>
+              </nav>
+            </div>
+
+            <div class="col-sm-4">
+              <a href="#gambar3" class="thumbnail"> <img src="https://i.ibb.co/3kQSYr4/pexels-oleg-magni-2058128.jpg" alt="Computer2" title="Computer2"> </a>
+            </div>
+            <div class="overlay-lightbox text-center" id="gambar3"> <a href="#projects" class="btn btn-danger close-btn"><i class="glyphicon glyphicon-remove"></i> CLOSE</a>
+              <img src="https://i.ibb.co/3kQSYr4/pexels-oleg-magni-2058128.jpg" alt="Computer2" border="0">
+              <h2 class="bg-primary">Computer2</h2>
+              <nav aria-label="...">
+               <ul class="pagination">
+                <li class="enable"><a href="#gambar2" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a></li>
+                <li class="enable"><a href="#gambar1">1 <span class="sr-only">(current)</span></a></li>
+                <li class="enable"><a href="#gambar2">2 <span class="sr-only">(current)</span></a></li>
+                <li class="active"><a href="#gambar3">3 <span class="sr-only">(current)</span></a></li>
+                <li class="enable"><a href="#gambar4">4 <span class="sr-only">(current)</span></a></li>
+                <li class="enable"><a href="#gambar5">5 <span class="sr-only">(current)</span></a></li>
+                <li class="enable"><a href="#gambar6">6 <span class="sr-only">(current)</span></a></li>
+                <li class="enable"><a href="#gambar4" aria-label="Previous"><span aria-hidden="true">&raquo;</span></a></li>
+              </ul>
+              </nav>
+            </div>
+
+            <div class="col-sm-4">
+              <a href="#gambar4" class="thumbnail"> <img src="https://i.ibb.co/HY3zKDS/pexels-fox-1038916.jpg" alt="Computer2" title="Computer3"> </a>
+            </div>
+            <div class="overlay-lightbox text-center" id="gambar4"> <a href="#projects" class="btn btn-danger close-btn"><i class="glyphicon glyphicon-remove"></i> CLOSE</a>
+              <img src="https://i.ibb.co/HY3zKDS/pexels-fox-1038916.jpg" alt="Computer3" border="0">
+              <h2 class="bg-primary">Computer3</h2>
+              <nav aria-label="...">
+               <ul class="pagination">
+                <li class="enable"><a href="#gambar3" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a></li>
+                <li class="enable"><a href="#gambar1">1 <span class="sr-only">(current)</span></a></li>
+                <li class="enable"><a href="#gambar2">2 <span class="sr-only">(current)</span></a></li>
+                <li class="enable"><a href="#gambar3">3 <span class="sr-only">(current)</span></a></li>
+                <li class="active"><a href="#gambar4">4 <span class="sr-only">(current)</span></a></li>
+                <li class="enable"><a href="#gambar5">5 <span class="sr-only">(current)</span></a></li>
+                <li class="enable"><a href="#gambar6">6 <span class="sr-only">(current)</span></a></li>
+                <li class="enable"><a href="#gambar5" aria-label="Previous"><span aria-hidden="true">&raquo;</span></a></li>
+              </ul>
+              </nav>
+            </div>
+
+            <div class="col-sm-4">
+              <a href="#gambar5" class="thumbnail"> <img src="https://i.ibb.co/jL5p6ym/pexels-photo-2465877.jpg" alt="The Book" title="The Book"> </a>
+            </div>
+            <div class="overlay-lightbox text-center" id="gambar5"> <a href="#projects" class="btn btn-danger close-btn"><i class="glyphicon glyphicon-remove"></i> CLOSE</a>
+              <img src="https://i.ibb.co/jL5p6ym/pexels-photo-2465877.jpg" alt="The Book" border="0">
+              <h2 class="bg-primary">The Book</h2>
+              <nav aria-label="...">
+               <ul class="pagination">
+                <li class="enable"><a href="#gambar4" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a></li>
+                <li class="enable"><a href="#gambar1">1 <span class="sr-only">(current)</span></a></li>
+                <li class="enable"><a href="#gambar2">2 <span class="sr-only">(current)</span></a></li>
+                <li class="enable"><a href="#gambar3">3 <span class="sr-only">(current)</span></a></li>
+                <li class="enable"><a href="#gambar4">4 <span class="sr-only">(current)</span></a></li>
+                <li class="active"><a href="#gambar5">5 <span class="sr-only">(current)</span></a></li>
+                <li class="enable"><a href="#gambar6">6 <span class="sr-only">(current)</span></a></li>
+                <li class="enable"><a href="#gambar6" aria-label="Previous"><span aria-hidden="true">&raquo;</span></a></li>
+              </ul>
+              </nav>
+            </div>
+
+            <div class="col-sm-4">
+              <a href="#gambar6" class="thumbnail"> <img src="https://i.ibb.co/6Yr9pSX/pexels-tranmautritam-326501.jpg" alt="Computer5" title="Computer5"> </a>
+            </div>
+            <div class="overlay-lightbox text-center" id="gambar6"> <a href="#projects" class="btn btn-danger close-btn"><i class="glyphicon glyphicon-remove"></i> CLOSE</a>
+              <img src="https://i.ibb.co/6Yr9pSX/pexels-tranmautritam-326501.jpg" alt="Computer5" border="0">
+              <h2 class="bg-primary">Computer5</h2>
+              <nav aria-label="...">
+               <ul class="pagination">
+                <li class="enable"><a href="#gambar5" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a></li>
+                <li class="enable"><a href="#gambar1">1 <span class="sr-only">(current)</span></a></li>
+                <li class="enable"><a href="#gambar2">2 <span class="sr-only">(current)</span></a></li>
+                <li class="enable"><a href="#gambar3">3 <span class="sr-only">(current)</span></a></li>
+                <li class="enable"><a href="#gambar4">4 <span class="sr-only">(current)</span></a></li>
+                <li class="enable"><a href="#gambar5">5 <span class="sr-only">(current)</span></a></li>
+                <li class="active"><a href="#gambar6">6 <span class="sr-only">(current)</span></a></li>
+                <li class="disabled"><a href="#projects" aria-label="Previous"><span aria-hidden="true">&raquo;</span></a></li>
+              </ul>
+              </nav>
+            </div>
+
+              </div>
+            </div>
+
+      </section>
+    <!-- AKHIR PROJECTS -->
+
+    <!-- CONTACT -->
+      <section class="contact" id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 text-center">
+              <h2>Contact Me!</h2>
+              <hr>
+            </div>
+          </div>
+        <br>
+          <div class="row">
+            <div class="col-sm-8 col-sm-offset-2">
+          <form>
+            <div class="form-group">
+              <label for="nama"> Nama </label>
+                <input type="text" id="nama" class="form-control" placeholder="silahkan masukkan nama..">
+            </div>
+
+            <div class="form-group">
+              <label for="email"> Email </label>
+                <input type="email" id="email" class="form-control" placeholder="example@yourmail.com">
+            </div>
+            <div class="form-group">
+              <label for="telp"> No. Telpon </label>
+                <input type="tel" id="telp" class="form-control" placeholder="masukkan nomor telepon">
+            </div>
+
+            <div class="form-group">
+              <label for="">Tipe Kategori</label>
+            <select class="form-control">
+              <option value="">-- Pilih Kategori --</option>
+              <option value="">Web Design</option>
+              <option value="">Web Development</option>
+            </select>
+           </div>
+            <br>
+
+            <div class="form-group">
+              <label for="pesan">Pesan</label>
+              <textarea class="form-control" rows="8" placeholder="tulis suatu pesan.." id="pesan"></textarea>
+            </div>
+
+            <button type="button" name="button" class="btn btn-primary btn-block">Kirim!</button>
+          </form>
+            </div>
+          </div>
+
+        </div>
+      </section>
+    <!-- AKHIR CONTACT -->
+
+    <!-- FOOTER -->
+      <footer>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-sm-12">
+              <p>&copy; Copyright 2021 &VerticalLine; built with <i class="glyphicon glyphicon-heart"></i> by. <a href="https://www.instagram.com/_dimaskuy/">DimasRS.</a> </p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-sm-3 col-sm-offset-3">
+              <a href="https://www.youtube.com/channel/UCXQbTdezhsyel0wziScbbzA" class="btn btn-danger"><i class="glyphicon glyphicon-play"></i> YouTube Channel</a>
+            </div>
+            <div class="col-sm-3">
+              <a href="" class="btn btn-success"><i class="glyphicon glyphicon-send"></i> Share This!</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    <!-- AKHIR FOOTER -->
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- JAVASCRIPT BUATAN SENDIRI~ -->
+    <script src="script.js" charset="utf-8"></script>
+
+
+  </body>
+</html>
